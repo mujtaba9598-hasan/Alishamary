@@ -65,7 +65,7 @@ p { font-size: 1rem; margin-bottom: 1rem; }
 /* Header */
 .main-header {
     background: var(--clr-bg-alt);
-    padding: 1.5rem 0;
+    padding: 0.5rem 0;
     border-bottom: 1px solid var(--clr-accent);
     position: sticky;
     top: 0;
@@ -898,7 +898,7 @@ p { font-size: 1rem; margin-bottom: 1rem; }
 
 /* Double the logo size in header and footer */
 .logo img {
-    height: 180px !important;
+    height: 120px !important;
 }
 .footer-brand img {
     height: 120px !important;
