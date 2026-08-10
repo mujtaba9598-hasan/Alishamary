@@ -561,7 +561,7 @@ p { font-size: 1rem; margin-bottom: 1rem; }
 
 .blog-card img {
     width: 100%;
-    aspect-ratio: 16/9;
+    height: auto;
     object-fit: cover;
     margin-bottom: 1rem;
     border-radius: 2px;
@@ -912,5 +912,6 @@ p { font-size: 1rem; margin-bottom: 1rem; }
 .nav-links a[href="about.html"] { order: 2; }
 .nav-links a[href="gallery.html"] { order: 3; }
 .nav-links a[href="shop.html"] { order: 4; }
-.nav-links a[href="contact.html"] { order: 5; }
-.nav-links a[href="book.html"] { order: 6; }
+.nav-links a[href="packages.html"] { order: 5; }
+.nav-links a[href="contact.html"] { order: 6; }
+.nav-links a[href="book.html"] { order: 7; }
