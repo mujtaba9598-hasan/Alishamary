@@ -903,3 +903,14 @@ p { font-size: 1rem; margin-bottom: 1rem; }
 .footer-brand img {
     height: 120px !important;
 }
+
+/* Reorder Nav Bar Links */
+.nav-links {
+    display: flex;
+}
+.nav-links a[href="index.html"] { order: 1; }
+.nav-links a[href="about.html"] { order: 2; }
+.nav-links a[href="gallery.html"] { order: 3; }
+.nav-links a[href="shop.html"] { order: 4; }
+.nav-links a[href="contact.html"] { order: 5; }
+.nav-links a[href="book.html"] { order: 6; }
