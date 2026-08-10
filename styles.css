@@ -871,6 +871,11 @@ p { font-size: 1rem; margin-bottom: 1rem; }
     height: 24px;
 }
 
+.floating-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
 .floating-btn:hover {
     transform: translateX(10px);
     background: var(--clr-accent);
